@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Bhaiksuki&display=swap');
+
+body {
+ font-family: "Noto Sans Bhaiksuki", sans-serif;
+    background-color: hsl(210, 17%, 98%);
+
+}
+
+
+.your {
+ font-family: "Noto Sans Bhaiksuki", sans-serif;
+     
+    font-size: 24px;
+    text-align: center;
+    margin-right: 1000px;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.search  {
+   position: relative;
+  
+    
+}
+.search input{
+    width: 180px;
+    border-radius: 20px;
+    padding: 1px;
+}
+.search i{
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateX(50%);
+    
+}
+
+
+.level2 {
+    display: flex;
+    background-color: aquamarine;
+    background-image: url(image/korra.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.level2 p{
+    word-spacing: 2px;
+}
+
+.information {
+    background: linear-gradient(to right,rgb(255, 255, 255),rgb(250, 250, 250),white, white,transparent);
+    padding: 50px 200px;
+}
+
+.information h1 {
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.information p {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.information a {
+    margin-top: 30px;
+    border-radius: 20px;
+    padding: 8px 29px;
+    font-weight: 500;
+}
+
+.title h3 {
+    margin: 23px;
+}
+
+
+
+
+.level3 {
+    background-image: url(image/korean\ .jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0, 0, 0,0.8);
+}
+.level3 .container{
+   background-color: rgba(0, 0, 0,0.7);
+   text-align: center;
+   
+}
+.blog-card{
+    width: 100%;
+    
+}
+.text{
+    text-align: left;
+    margin-left: 69px;
+}
+
+.blog-card img {
+    width: 70%;
+    height: 350px;
+    border-radius: 10px;
+    padding-top: 50px;
+}
+
+.blog-card h4 {
+    font-weight: 500;
+    color: white;
+    margin-left: -10px;
+   
+}
+
+.blog-card p {
+    color: white;
+}
+
+
+
+
+
+.category-list a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 5px 0;
+}
+
+.social-icons i {
+    font-size: 20px;
+    margin: 0 8px;
+    color: #111;
+}
+
+.category {
+    background-color: rgb(224, 225, 225);
+    width: 450px;
+    justify-content: center;
+    padding: 30px;
+}
+
+.category a {
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #828282;
+}
+
+.category h4 {
+    font-size: 29px;
+    margin-top: 20px;
+
+}
+
+
+
+
+
+.level4 .domi {
+    display: flex;
+    justify-content: right;
+    gap: 45px;
+    
+}
+
+.box {
+    border: 2px solid black;
+    height: 170px;
+   margin-top: 59px;
+}
+
+.box h5 {
+    font-size: 25px;
+    font-weight: 650;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.icon{
+    text-align: center;
+    margin-top: 60px;
+
+}
+
+
+
+
+footer {
+    background-color: #111;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
